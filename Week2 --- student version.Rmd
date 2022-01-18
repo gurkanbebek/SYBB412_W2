@@ -1,0 +1,52 @@
+---
+title: "Week 2 - Class Exercises"
+author: "Gurkan Bebek"
+date: "2/2/2022"
+output: html_document
+---
+
+# Week 2
+
+## Setup
+Generate random dataset:
+
+```{r random_data}
+set.seed(42)
+sampleCount<-20
+geneCount<-100
+
+myMatrix<-replicate(sampleCount, rnorm(geneCount)) 
+
+row.names(myMatrix)<-paste("gene",1:geneCount,sep="")
+colnames(myMatrix)<-paste("sample",1:sampleCount,sep="")
+
+```
+
+##  Output each gene/sample expression.
+```{r Exercise0}
+# 
+
+
+```
+
+
+
+## Find samples with highest expression
+```{r Exercise1}
+# 
+
+
+```
+
+
+
+## Find correlated genes
+```{r Exercise2}
+#
+
+
+
+```
+
+
+
